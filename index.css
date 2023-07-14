@@ -1,0 +1,23 @@
+
+.theme-color {
+    background-color: lightgrey;
+}
+.header {
+    padding: 20px;
+}
+.carousel-item {
+    height: 100px;
+    background-color: darkorange;
+}
+.carousel-item {
+    height: 500px;
+/*    todo*/
+}
+.infographic {
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+.example-text {
+    padding: 20px 50px;
+}
