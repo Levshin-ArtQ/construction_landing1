@@ -1,6 +1,6 @@
 
 .theme-color {
-    background-color: lightgrey;
+    background-color: #f5f5f5;
 }
 .header {
     padding: 20px;
@@ -16,7 +16,22 @@
 .infographic {
     padding: 10px;
     border-radius: 30px;
-    margin-bottom: 50px;
+    margin: 30px 0 50px;
+}
+.wood-gradient {
+    background: linear-gradient(to left, #fff, #bb977e)
+}
+.wood-gradient:hover{
+    background: linear-gradient(to right, #fff, #bb977e)
+}
+.metal-gradient {
+    background: linear-gradient(to left, #fff ,#ccccce)
+}
+.metal-gradient:hover{
+    background: linear-gradient(to right, #fff, #ccccce)
+}
+.card-img-top {
+    aspect-ratio: 3/2;
 }
 .example-text {
     padding: 20px 50px;
