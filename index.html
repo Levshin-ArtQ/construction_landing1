@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--  <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
     <style>
-        .main-image {
-            background-image: url("/img/main-image.png");
+        .carousel-item-1 {
+            background-image: url("/img/metal.jpg");
+            object-fit: cover;
+        }
+        .carousel-item-2 {
+            background-image: url("/img/pigeon-creek-residence-lucid-architecture-img~f7b19c420f610824_4-9320-1-49463dc.jpg");
+            object-fit: cover;
         }
 
-        .tariffs {
-            background-image: url(/img/favpng_antarctic-sea-iceberg.png);
-        }
     </style>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/media.scss">
@@ -23,22 +25,24 @@
     <title>Antarctica Cruise</title>
 </head>
 <body>
-<header class="header container-fluid theme-color d-flex justify-content-between align-items-center">
-    <div class="logo d-flex align-items-center">
-        <img src="" alt="" class="logo__pic">
-        <h1 class="logo-text">CONSTRUCTION_CORP</h1>
-    </div>
-    <nav class="d-flex justify-content-between align-items-center g-4">
-        <a href="" class="col nav-item">Lorem</a>
-        <a href="" class="col nav-item">Inspur</a>
-        <a href="" class="col nav-item">Tennet</a>
-        <a href="" class="col nav-item">Lorem</a>
-        <a href="" class="col nav-item">Inspur</a>
-    </nav>
-    <div class="contact-info d-flex flex-column">
-        <span class="contact-item">+79999999999</span>
-        <span class="contact-item">mail.amaafajlkfa</span>
-    </div>
+<header class="header container-fluid">
+        <div class="row d-flex justify-content-between align-items-center">
+            <div class="logo d-flex align-items-center px-3">
+                <img src="" alt="" class="logo__pic">
+                <h1 class="logo-text">CONSTRUCTION_CORP</h1>
+            </div>
+            <nav class="d-flex justify-content-between align-items-center">
+                <a href="" class="col nav-item">Lorem</a>
+                <a href="" class="col nav-item">Inspur</a>
+                <a href="" class="col nav-item">Tennet</a>
+                <a href="" class="col nav-item">Lorem</a>
+                <a href="" class="col nav-item">Inspur</a>
+            </nav>
+            <div class="contact-info d-flex flex-column px-3">
+                <span class="contact-item">+79999999999</span>
+                <span class="contact-item">mail.amaafajlkfa</span>
+            </div>
+        </div>
 </header>
 
 <div class="container-fluid tariffs tariffs-carousel">
@@ -51,28 +55,28 @@
             <li data-target="#carouselTariffIndicators" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner card-holder">
-            <div class="carousel-item active">
-                <div class="tariff-card tariff-card_carousel d-flex flex-column justify-content-between align-items-center">
+            <div class="carousel-item carousel-item-1 active">
+                <div class="tariff-card tariff-card_carousel d-flex flex-column text-center justify-content-center align-items-center">
                     <h2 class="carousel-header">
                         Мы строим на века
                     </h2>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item carousel-item-2">
                 <div class="tariff-card tariff-card_carousel d-flex flex-column justify-content-between align-items-center">
                     <h2 class="carousel-header">
                         Предоставляем качественные материалы
                     </h2>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item carousel-item-3">
                 <div class="tariff-card tariff-card_carousel d-flex flex-column justify-content-between align-items-center">
                     <h2 class="carousel-header">
                         У нас работают только эксперты
                     </h2>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item carousel-item-4">
                 <div class="tariff-card tariff-card_carousel d-flex flex-column justify-content-between align-items-center">
                     <h2 class="carousel-header">
                         Обращайтесь к нам
@@ -121,9 +125,9 @@
 
 
 <div class="container">
-    <div class="row">
-        <div class="col-6 col-md-3">
-            <div class="card wood-gradient border-0">
+    <div class="row gy-10">
+        <div class="card-wrapper col-6 col-lg-3">
+            <div class="card wood-gradient border-0 h-100">
                 <img src="img/image.jpg" class="card-img-top border-0" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -131,8 +135,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-6 col-md-3">
-            <div class="card metal-gradient border-0">
+        <div class="card-wrapper col-6 col-lg-3">
+            <div class="card metal-gradient border-0 h-100">
                 <img src="img/metal.jpg" class="card-img-top border-0" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -140,8 +144,8 @@
                 </div>
             </div>
         </div>
-        <div class="col col-md-3">
-            <div class="card border-0">
+        <div class="card-wrapper col-6 col-lg-3">
+            <div class="card border-0 h-100">
                 <img src="..." class="card-img-top border-0" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -149,8 +153,8 @@
                 </div>
             </div>
         </div>
-        <div class="col col-md-3">
-            <div class="card border-0">
+        <div class="card-wrapper col-6 col-lg-3">
+            <div class="card border-0 h-100">
                 <img src="..." class="card-img-top border-0" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -204,21 +208,28 @@
 
 <footer class="footer theme-color container-fluid">
     <div class="container">
-        <div class="row logo"><img src="" alt="" class="logo__pic">
-            <div class="logo-text"></div>
-        </div>
-        <row class="footer-info">
-            <div class="contact-text col-md-4 col-12 d-flex flex-column">
-                <span></span><span></span><span></span><span></span></div>
-            <div class="contact-links col-md-4 col-12 d-flex flex-column"><a href=""></a>
+        <div class="row logo d-flex justify-content-between">
+            <div class="col-12 logo d-flex align-items-center">
+                <img src="/img/metal.jpg" alt="" class="img-fluid logo__pic col-3">
+                <h2 class="logo-text col-8">Construction_Corp</h2>
+            </div>
+            <div class="col contact-text col-md-4 col-12 d-flex flex-column">
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</span>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</span>
+            </div>
+            <div class="col contact-links col-md-4 col-12 d-flex flex-column"><a href=""></a>
                 <div class="messengers d-flex">
-                    <button></button>
-                    <button></button>
-                    <button></button>
+                    <button>VK</button>
+                    <button>INST</button>
+                    <button>TG</button>
                     <button></button>
                 </div>
             </div>
-        </row>
+        </div>
     </div>
 </footer>
 
