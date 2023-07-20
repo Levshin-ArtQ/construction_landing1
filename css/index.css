@@ -19,18 +19,7 @@ html {
     object-fit: cover;
     height: 100%;
 }
-.carousel-item {
-    background-size: cover;
-}
-.carousel-item-1 {
-    background-image: url("/img/bild1.jpg");
-}
-.carousel-item-2 {
-    background-image: url("/img/bild2.jpg");
-}
-.carousel-item-3 {
-    background-image: url("/img/bild3.jpg");
-}
+
 .theme-color {
     background-color: #f5f5f5;
 }
